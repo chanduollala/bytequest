@@ -1,0 +1,13 @@
+.magazine-page-image{
+  width: 100%;
+  height: 100%;
+}
+.magazine-page{
+  width: 90vw ;
+  height: 63.65vw;
+}
+
+.marking1{
+  border: #000000 solid 2px;
+  position: absolute;
+}

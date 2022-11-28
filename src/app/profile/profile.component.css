@@ -1,0 +1,28 @@
+.frame1{
+  padding-top: 20px;
+  max-width: 600px;
+}
+
+
+.profile-pic-round {
+  all: unset;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  color: #333333;
+  overflow: hidden;
+}
+
+
+.card-spacing{
+  margin-bottom: 10px;
+}

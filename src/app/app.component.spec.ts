@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'bytequest'`, () => {
+  it(`should have as title 'codefiesta-web'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bytequest');
+    expect(app.title).toEqual('codefiesta-web');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('bytequest app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('codefiesta-web app is running!');
   });
 });
